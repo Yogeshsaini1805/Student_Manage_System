@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# If you collect static files into STATIC_ROOT, ignore that folder
+/static/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.dev
+.env.test
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Migrations (optional — usually keep these)
+# **Be careful:** only ignore if you don’t want to version control migrations.
+# */migrations/
+
+# Other
+*.bak
+*.tmp
